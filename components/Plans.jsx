@@ -1,34 +1,15 @@
-"use client";
-
-import { useState } from "react";
+import PlanSelector from "./PlanSelector";
 
 const Plans = () => {
-  const [plan, setPlan] = useState("monthly");
-
   return (
-    <article>
+    <article id="coaching">
       <section>
         <h3>Where To Start?</h3>
         <h2>
           With Our Plans <span>we will lorem ipsum</span>
         </h2>
       </section>
-      <section>
-        <fieldset>
-          <label>
-            <input type="radio" />
-          </label>
-          <label>
-            <input type="radio" />
-          </label>
-          <label>
-            <input type="radio" />
-          </label>
-          <label>
-            <input type="radio" />
-          </label>
-        </fieldset>
-      </section>
+      <PlanSelector />
     </article>
   );
 };

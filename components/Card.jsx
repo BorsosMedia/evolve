@@ -15,14 +15,14 @@ const Card = ({ plan, price, to, bullets }) => {
           Purchase
         </button>
       </Link>
-      <div>
+      {/* <div>
         {bullets.length > 0 &&
           bullets.map((bullet, index) => (
             <li key={index} className="text-lightGrey">
               {bullet}
             </li>
           ))}
-      </div>
+      </div> */}
     </div>
   );
 };

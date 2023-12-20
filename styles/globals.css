@@ -21,12 +21,28 @@
     @apply uppercase;
   }
 
+  .headline {
+    @apply text-center text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl;
+  }
+
+  .plan {
+    @apply flex flex-row justify-center items-center cursor-pointer text-xl lg:text-2xl 2xl:text-3xl font-black;
+  }
+
+  .selected-plan {
+    @apply plan text-red;
+  }
+
+  .unselected-plan {
+    @apply hover:selected-plan plan text-white transition-all duration-300 ease-in-out;
+  }
+
   .navbar {
     @apply fixed md:sticky left-0 top-0 flex w-full items-center justify-around bg-black text-white py-4 lg:px-[10%] z-10;
   }
 
   .nav-item {
-    @apply w-full text-white 2xl:text-2xl uppercase font-black ease-in-out hover:text-red duration-300;
+    @apply w-full text-white 2xl:text-2xl uppercase font-black transition-all ease-in-out hover:text-red duration-300;
   }
 
   .nav-button {
@@ -36,4 +52,23 @@
   .logo {
     @apply h-auto w-24 md:w-32 2xl:w-40;
   }
+
+  .slick-slide {
+    @apply box-border px-2;
+  }
+}
+
+/* .slick-dots li button:before {
+  opacity: 1 !important;
+  color: #ffedf7 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: #ff61ad !important;
+} */
+
+.slick-arrow:before {
+  background: transparent !important;
+  color: #de3a2f !important;
 }
