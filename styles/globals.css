@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  src: url("../public/fonts/EthosNova-Regular.woff2") format(woff2);
+  font-family: "EthosNova";
+}
+
+@layer utilities {
+  html {
+    @apply box-border overflow-x-hidden scroll-smooth scrollbar-thin scrollbar-track-black scrollbar-thumb-red;
+  }
+
+  body {
+    @apply m-0 h-full w-full overflow-x-hidden bg-body p-0 text-white;
+    font-family: "EthosNova", Arial, Helvetica, sans-serif;
+  }
+
+  label {
+    @apply uppercase;
+  }
+
+  .navbar {
+    @apply fixed md:sticky left-0 top-0 flex w-full items-center justify-around bg-black text-white py-4 lg:px-[10%] z-10;
+  }
+
+  .nav-item {
+    @apply w-full text-white 2xl:text-2xl uppercase font-black ease-in-out hover:text-red duration-300;
+  }
+
+  .nav-button {
+    @apply w-full text-white 2xl:text-2xl uppercase font-black ease-in-out hover:scale-110 duration-300 bg-red border rounded-[36px] border-red px-5 py-2;
+  }
+
+  .logo {
+    @apply h-auto w-24 md:w-32 2xl:w-40;
+  }
+}
