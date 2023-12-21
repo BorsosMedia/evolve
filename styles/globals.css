@@ -22,7 +22,7 @@
   }
 
   fieldset {
-    @apply md:flex md:flex-col md:justify-center md:items-start grid grid-cols-3 gap-4 place-content-center;
+    @apply md:flex md:flex-col md:justify-center md:items-start grid grid-cols-3 gap-6 place-content-center;
   }
 
   li {
@@ -46,7 +46,7 @@
   }
 
   .selected-plan {
-    @apply plan text-red;
+    @apply plan text-red underline decoration-4 underline-offset-8;
   }
 
   .unselected-plan {

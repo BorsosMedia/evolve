@@ -4,7 +4,7 @@ import about from "../public/assets/about.png";
 
 const About = () => {
   return (
-    <article className="bg-about">
+    <article className="bg-about" id="about">
       <section className="container mx-auto grid w-[80%] grid-cols-1 gap-[30px] py-10 lg:grid-cols-2">
         <section>
           <Image

@@ -52,7 +52,7 @@ const Menu = () => {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link href="#">
+            <Link href="#inquiry">
               <button className="nav-button">Start an Inquiry</button>
             </Link>
           </NavbarItem>
@@ -83,7 +83,7 @@ const Menu = () => {
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem>
-            <Link href="#" size="lg">
+            <Link href="#inquiry" size="lg">
               <button className="nav-button">Start an Inquiry</button>
             </Link>
           </NavbarMenuItem>

@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
+      <script async src="https://link.msgsndr.com/js/form_embed.js" />
       <script
         async
         src="https://static.elfsight.com/platform/platform.js"
