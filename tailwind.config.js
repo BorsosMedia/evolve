@@ -27,6 +27,7 @@ module.exports = {
           "linear-gradient(90deg, rgba(222, 58, 47, 0.00) 0%, #DE3A2F 51.56%, rgba(222, 58, 47, 0.00) 100%);",
         separator:
           "linear-gradient(90deg, #DE3A2F 0%, rgba(222, 58, 47, 0.00) 49.48%, #DE3A2F 100%);",
+        check: 'url("../public/assets/check.svg")',
       },
     },
   },

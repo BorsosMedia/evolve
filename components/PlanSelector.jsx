@@ -5,7 +5,12 @@ import { useState } from "react";
 import Card from "./Card";
 
 const PlanSelector = () => {
-  const planTypes = ["monthly", "3 months", "6 months", "one time"];
+  const planTypes = [
+    "monthly",
+    "3 months",
+    "6 months",
+    "customized training plan",
+  ];
   const [plan, setPlan] = useState("monthly");
 
   const handleChange = (e) => {
@@ -13,10 +18,22 @@ const PlanSelector = () => {
   };
 
   return (
-    <section className="plan-display z-10">
+    <section className="container z-10 mx-auto flex w-full flex-col items-center justify-center gap-[30px] pb-8 md:flex-row-reverse">
       <fieldset>
         {planTypes.map((planType, index) => (
-          <div key={index}>
+          <div
+            key={index}
+            className={
+              planType === "customized training plan" ? "col-span-3" : ""
+            }
+          >
+            <input
+              type="radio"
+              value={planType}
+              id={planType}
+              name="plans"
+              className="hidden"
+            />
             <label
               htmlFor={planType}
               onClick={handleChange}
@@ -24,44 +41,28 @@ const PlanSelector = () => {
                 plan === planType ? "selected-plan" : "unselected-plan"
               }
             >
-              <input
-                type="radio"
-                value={planType}
-                id={planType}
-                name="plans"
-                className="hidden"
-              />
               {planType}
             </label>
           </div>
         ))}
       </fieldset>
-      {plan === "monthly" ? (
-        <Card
-          plan="monthly"
-          price="149"
-          to="https://training.alanixfitcoaching.com/ftc-bt-mp"
-        />
-      ) : plan === "3 months" ? (
-        <Card
-          plan="3 months"
-          price="402"
-          to="https://training.alanixfitcoaching.com/ftc-bt-3mp"
-        />
-      ) : plan === "6 months" ? (
-        <Card
-          plan="6 months"
-          price="1195"
-          to="https://training.alanixfitcoaching.com/ftc-ut-6mp"
-        />
-      ) : (
-        <Card
-          plan="annual"
-          price="1251"
-          to="https://training.alanixfitcoaching.com/ftc-bt-ap"
-        />
-      )}
-      <p>*for remote and in-person clients</p>
+      <section className="flex flex-col items-center justify-center">
+        {plan === "monthly" ? (
+          <Card title="Monthly Coaching" plan="monthly" price="150" to="#" />
+        ) : plan === "3 months" ? (
+          <Card title="3 Month Coaching" plan="3 months" price="425" to="#" />
+        ) : plan === "6 months" ? (
+          <Card title="6 Month Coaching" plan="6 months" price="750" to="#" />
+        ) : (
+          <Card
+            title="Customized Training Plan"
+            plan="customized"
+            price="200"
+            to="#"
+          />
+        )}
+        <p>*for remote and in-person clients</p>
+      </section>
     </section>
   );
 };
