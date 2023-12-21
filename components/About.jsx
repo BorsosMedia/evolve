@@ -26,10 +26,10 @@ const About = () => {
               className="hidden self-center sm:block lg:hidden"
             />
             <div>
-              <h3 className="py-4 text-2xl font-black">
+              <h3 className="py-4 text-2xl font-black 2xl:text-4xl">
                 I&apos;m Jordan Irizarry
               </h3>
-              <p>
+              <p className="xl:text-xl 2xl:text-xl">
                 I&apos;ve been coaching and training for ten years. I&apos;m a
                 father, veteran, and bodybuilder so I understand the challenge
                 of time management and discipline in all aspects of life. I will
@@ -41,10 +41,10 @@ const About = () => {
               </p>
             </div>
           </div>
-          <h3 className="py-4 text-2xl font-black">
+          <h3 className="py-4 text-2xl font-black 2xl:text-4xl">
             Follow the EVOLVE METHOD!
           </h3>
-          <p>
+          <p className="xl:text-xl 2xl:text-xl">
             We both have a mission. To reach your goals, I expect you to follow
             the plan, be attentive to detail, have trust in the plan, and have
             open communication. I will consistently give you 110%. I expect

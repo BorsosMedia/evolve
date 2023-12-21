@@ -7,7 +7,9 @@ const Consultation = () => {
         <h2 className="subheadline font-black uppercase">
           Book a 15 minute consultation call
         </h2>
-        <p>If there&apos;s anything else you want to know, let&apos;s talk!</p>
+        <p className="xl:text-xl 2xl:text-2xl">
+          If there&apos;s anything else you want to know, let&apos;s talk!
+        </p>
         <RedButton to="#" content="Book a Call" />
       </section>
     </article>
