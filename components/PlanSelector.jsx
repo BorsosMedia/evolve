@@ -9,25 +9,25 @@ const PlanSelector = () => {
     {
       name: "monthly",
       description:
-        "A personalized program designed to help reach your goals focusing in changing your mindset and your lifestyle.",
-      recurrence: "Paid Monthly",
+        "A personalized program designed to help you reach your goals, while focusing on reshaping your mindset and lifestyle.",
+      recurrence: "Pay Monthly.",
     },
     {
       name: "3 months",
       description:
-        "A personalized program designed to help reach your goals focusing in changing your mindset and your lifestyle.",
-      recurrence: "Pay Every 3 Months and Get $25 OFF",
+        "A personalized program designed to help you reach your goals, while focusing on reshaping your mindset and lifestyle.",
+      recurrence: "Pay every 3 months for $25 OFF.",
     },
     {
       name: "6 months",
       description:
-        "A personalized program designed to help reach your goals focusing in changing your mindset and your lifestyle. ",
-      recurrence: "Pay Every 6 Months and Get $150 OFF",
+        "A personalized program designed to help you reach your goals, while focusing on reshaping your mindset and lifestyle.",
+      recurrence: "Pay every 6 months for $150 OFF.",
     },
     {
       name: "customized training plan",
       description:
-        "Receive a full training plan that you can follow to reach your goals.",
+        "A personalized training blueprint that adapts to your pace and rhythm, amplifying your routines with targeted precision.",
       recurrence: "",
     },
   ];

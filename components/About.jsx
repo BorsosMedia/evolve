@@ -27,17 +27,17 @@ const About = () => {
             />
             <div>
               <h3 className="py-4 text-2xl font-black 2xl:text-4xl">
-                I&apos;m Jordan Irizarry
+                My Name Is Jordan Irizarry
               </h3>
               <p className="xl:text-xl 2xl:text-xl">
-                I&apos;ve been coaching and training for ten years. I&apos;m a
-                father, veteran, and bodybuilder so I understand the challenge
-                of time management and discipline in all aspects of life. I will
-                not only challenge you physically but also ensure it is a
-                complete mindset change when it comes to life. With me,
-                you&apos;re not just another client, you join our Evolve family.
-                I will be direct, honest, and caring because I want you to
-                succeed in all aspects of life.
+                I&apos;ve been training and coaching for ten years. I&apos;m a
+                father, a veteran, and a bodybuilder so I understand the
+                challenge of time management and discipline in all aspects of
+                life. I will not only challenge you physically, but I will also
+                make sure you undergo a complete mindset change towards life.
+                For me, you won&apos;t be just another client, but part of the
+                Evolve Family. I will be direct, honest, and caring because I
+                want you to succeed.
               </p>
             </div>
           </div>
@@ -45,10 +45,9 @@ const About = () => {
             Follow the EVOLVE METHOD!
           </h3>
           <p className="xl:text-xl 2xl:text-xl">
-            We both have a mission. To reach your goals, I expect you to follow
-            the plan, be attentive to detail, have trust in the plan, and have
-            open communication. I will consistently give you 110%. I expect
-            nothing less in return.
+            This is a joint mission. I expect you to follow the plan and
+            communicate openly with me in order to reach your goals. I will
+            consistently give you 110% and I expect nothing less in return.
           </p>
         </section>
       </section>

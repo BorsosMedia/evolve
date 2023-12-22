@@ -1,7 +1,7 @@
-import React from "react";
+// import Image from "next/image";
 
 const Hero = () => {
-  return <div>Hero</div>;
+  return <article>{/* <Image src={} alt="Training partners"/> */}</article>;
 };
 
 export default Hero;

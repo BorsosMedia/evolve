@@ -9,6 +9,7 @@ const Consultation = () => {
         </h2>
         <p className="xl:text-xl 2xl:text-2xl">
           If there&apos;s anything else you want to know, let&apos;s talk!
+          It&apos;s FREE.
         </p>
         <RedButton to="#" content="Book a Call" />
       </section>

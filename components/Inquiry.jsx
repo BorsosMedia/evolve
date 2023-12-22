@@ -22,6 +22,7 @@ const Inquiry = () => {
         </div>
         <div className="h-1 w-full bg-separator" />
       </section> */}
+      <div className="h-1 w-full bg-separator" />
       <section className="text-center">
         <h3 className="subheadline pt-8 uppercase">
           Do You Need More Information?
@@ -29,6 +30,7 @@ const Inquiry = () => {
         <h2 className="headline py-4 font-black uppercase">
           Ask all your questions Below!
         </h2>
+
         <iframe
           src="https://api.leadconnectorhq.com/widget/form/0ayCWnbch2DZNIeWJIPF"
           style={{
@@ -52,6 +54,7 @@ const Inquiry = () => {
           title="Inquiry Form"
         />
       </section>
+      <div className="h-1 w-full bg-separator" />
     </article>
   );
 };

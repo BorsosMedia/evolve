@@ -33,6 +33,14 @@
     @apply block mr-1 bg-check bg-center bg-no-repeat bg-[length:1.2rem] min-w-4 h-4 content-[''];
   }
 
+  #training-headline {
+    @apply flex items-center;
+  }
+
+  /* #training-headline::after {
+    @apply block ml-1 bg-arrows bg-center bg-no-repeat w-20 h-24 content-[''];
+  } */
+
   .headline {
     @apply text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl;
   }

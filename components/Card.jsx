@@ -18,18 +18,17 @@ const Card = ({ title, plan, price, to }) => {
       <div>
         {plan === "customized" ? (
           <p>
-            I will give you an entire training plan that you can follow to reach
-            your goals:This is recommended to people that have experience
-            training and want to boost their training routines.
+            This is an ideal plan for experienced fitness enthusiasts seeking to
+            boost their training routines and enhance their ongoing goals.
           </p>
         ) : (
           <ul className="grid grid-cols-2 text-left">
-            <li>Custom Workouts</li>
+            <li>Targeted Workouts</li>
             <li>Personal Well-Being</li>
-            <li>Custom Meal Plans</li>
-            <li>Support in Every Step Of The Process</li>
-            <li>Frequent Comunication</li>
-            <li>Goal Tracking</li>
+            <li>Customized Meal Plans</li>
+            <li>Support In Every Step Of The Process</li>
+            <li>Frequent Communication</li>
+            <li>Support Every Step of the Way</li>
           </ul>
         )}
       </div>
