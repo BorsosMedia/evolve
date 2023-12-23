@@ -23,12 +23,12 @@ const Card = ({ title, plan, price, to }) => {
           </p>
         ) : (
           <ul className="grid grid-cols-2 text-left">
-            <li>Targeted Workouts</li>
-            <li>Personal Well-Being</li>
-            <li>Customized Meal Plans</li>
-            <li>Support In Every Step Of The Process</li>
-            <li>Frequent Communication</li>
-            <li>Support Every Step of the Way</li>
+            <li className="card-item">Targeted Workouts</li>
+            <li className="card-item">Personal Well-Being</li>
+            <li className="card-item">Customized Meal Plans</li>
+            <li className="card-item">Support In Every Step Of The Process</li>
+            <li className="card-item">Frequent Communication</li>
+            <li className="card-item">Support Every Step of the Way</li>
           </ul>
         )}
       </div>

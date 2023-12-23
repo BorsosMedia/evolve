@@ -6,7 +6,7 @@ import Inquiry from "../components/Inquiry";
 import InstagramWidget from "../components/InstagramWidget";
 import Menu from "../components/Menu";
 import Plans from "../components/Plans";
-import Reviews from "../components/Reviews";
+// import Reviews from "../components/Reviews";
 import Training from "../components/Training";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <Plans />
       <Consultation />
       <ClientsEvolve />
-      <Reviews />
+      {/* <Reviews /> */}
       <About />
       <Inquiry />
       <InstagramWidget />

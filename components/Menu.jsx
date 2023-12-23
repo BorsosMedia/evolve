@@ -15,6 +15,7 @@ import {
 } from "@nextui-org/react";
 import Image from "next/image";
 
+import RedButton from "./RedButton";
 import logo from "../public/assets/logo.png";
 
 const Menu = () => {
@@ -52,9 +53,7 @@ const Menu = () => {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link href="#inquiry">
-              <button className="nav-button">Start an Inquiry</button>
-            </Link>
+            <RedButton to="#inquiry" content="Start an inquiry" />
           </NavbarItem>
         </NavbarContent>
         <NavbarContent>
@@ -66,7 +65,7 @@ const Menu = () => {
             className="md:hidden"
           />
         </NavbarContent>
-        <NavbarMenu className="mt-5 bg-black/60">
+        <NavbarMenu className="h-full items-center justify-evenly bg-black/60">
           <NavbarMenuItem>
             <Link href="#coaching" className="nav-item" size="lg">
               Coaching Plans
@@ -83,9 +82,7 @@ const Menu = () => {
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem>
-            <Link href="#inquiry" size="lg">
-              <button className="nav-button">Start an Inquiry</button>
-            </Link>
+            <RedButton to="#inquiry" content="Start an inquiry" />
           </NavbarMenuItem>
         </NavbarMenu>
       </Navbar>

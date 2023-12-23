@@ -1,7 +1,7 @@
-import Image from "next/image";
+// import Image from "next/image";
 
-import inquiry1 from "../public/assets/inquiry-1.png";
-import inquiry2 from "../public/assets/inquiry-2.png";
+// import inquiry1 from "../public/assets/inquiry-1.png";
+// import inquiry2 from "../public/assets/inquiry-2.png";
 
 const Inquiry = () => {
   return (

@@ -82,7 +82,12 @@ const PlanSelector = () => {
               {planTypes[0].description}{" "}
               <span className="font-black">{planTypes[0].recurrence}</span>
             </p>
-            <Card title="Monthly Coaching" plan="monthly" price="150" to="#" />
+            <Card
+              title="Monthly Coaching"
+              plan="monthly"
+              price="150"
+              to="https://coaching.teamevolvecoaching.com/ftc-mp"
+            />
           </>
         ) : plan === "3 months" ? (
           <>
@@ -90,7 +95,12 @@ const PlanSelector = () => {
               {planTypes[1].description}{" "}
               <span className="font-black">{planTypes[1].recurrence}</span>
             </p>
-            <Card title="3 Month Coaching" plan="3 months" price="425" to="#" />
+            <Card
+              title="3 Month Coaching"
+              plan="3 months"
+              price="425"
+              to="https://coaching.teamevolvecoaching.com/ftc-3mp"
+            />
           </>
         ) : plan === "6 months" ? (
           <>
@@ -98,7 +108,12 @@ const PlanSelector = () => {
               {planTypes[2].description}{" "}
               <span className="font-black">{planTypes[2].recurrence}</span>
             </p>
-            <Card title="6 Month Coaching" plan="6 months" price="750" to="#" />
+            <Card
+              title="6 Month Coaching"
+              plan="6 months"
+              price="750"
+              to="https://coaching.teamevolvecoaching.com/ftc-6mp"
+            />
           </>
         ) : (
           <>
@@ -110,7 +125,7 @@ const PlanSelector = () => {
               title="Customized Training Plan"
               plan="customized"
               price="200"
-              to="#"
+              to="https://coaching.teamevolvecoaching.com/otc-ctpp"
             />
           </>
         )}
