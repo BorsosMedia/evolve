@@ -11,7 +11,10 @@ const Consultation = () => {
           If there&apos;s anything else you want to know, let&apos;s talk!
           It&apos;s FREE.
         </p>
-        <RedButton to="#" content="Book a Call" />
+        <RedButton
+          to="https://coaching.teamevolvecoaching.com/calendar-inquiry-calls"
+          content="Book a Call"
+        />
       </section>
     </article>
   );
