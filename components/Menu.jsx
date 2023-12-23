@@ -34,7 +34,9 @@ const Menu = () => {
         >
           <NavbarItem>
             <NavbarBrand>
-              <Image src={logo} alt="logo" className="logo" />
+              <Link href="#">
+                <Image src={logo} alt="logo" className="logo" />
+              </Link>
             </NavbarBrand>
           </NavbarItem>
           <NavbarItem>
@@ -58,7 +60,9 @@ const Menu = () => {
         </NavbarContent>
         <NavbarContent>
           <NavbarBrand>
-            <Image src={logo} alt="logo" className="logo md:hidden" />
+            <Link href="#">
+              <Image src={logo} alt="logo" className="logo md:hidden" />
+            </Link>
           </NavbarBrand>
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
