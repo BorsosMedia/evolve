@@ -31,9 +31,9 @@ const Hero = () => {
         </section>
       </article>
       {/* HERO FOR SCREENS >=1024px */}
-      <article className="mt-32 hidden flex-row items-center justify-between gap-80 lg:flex">
-        <section className="flex flex-col items-center gap-8 text-center">
-          <h1 className="text-6xl uppercase">
+      <article className="mx-auto mt-32 hidden w-[80%] flex-row items-center justify-between gap-40 lg:flex xl:gap-80 2xl:mt-48">
+        <section className="flex max-w-[30vw] flex-col items-center gap-8 text-center">
+          <h1 className="text-6xl uppercase 2xl:text-7xl">
             <span>Change your mindset</span>
             <br />
             <span className="font-black text-red">
@@ -42,13 +42,22 @@ const Hero = () => {
           </h1>
           <RedButton to="#inquiry" content="Start an inquiry" />
         </section>
-        <section>
-          <p className="text-lg">
-            To become your best version you need to be ready to transform
-            yourself...
-          </p>
-          <p className="text-2xl font-black">You need to be ready to EVOLVE</p>
+        <section className="relative mx-auto flex w-[25vw] flex-col">
+          <div className="mx-auto mb-4 mt-10 w-[70%]">
+            <p className="mb-8 text-lg 2xl:text-xl">
+              To become your best version you need to be ready to transform
+              yourself...
+            </p>
+            <p className="text-2xl font-black 2xl:text-3xl">
+              You need to be ready to EVOLVE
+            </p>
+          </div>
           <Image src={hero2} alt="Athlete results" />
+          <Image
+            src={hero1}
+            alt="Training partners"
+            className="absolute left-[-16vw] h-auto w-[18vw] max-w-[500px] lg:top-24 xl:top-0"
+          />
         </section>
       </article>
     </>

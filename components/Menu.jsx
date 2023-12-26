@@ -29,7 +29,7 @@ const Menu = () => {
         maxWidth="full"
       >
         <NavbarContent
-          className="hidden w-full justify-evenly gap-4 md:flex"
+          className="hidden w-full justify-between gap-4 md:flex"
           justify="evenly"
         >
           <NavbarItem>
