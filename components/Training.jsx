@@ -3,6 +3,9 @@ import React from "react";
 import Image from "next/image";
 
 import arrows from "../public/assets/arrows.svg";
+import connector1 from "../public/assets/connector-1.svg";
+import connector2 from "../public/assets/connector-2.svg";
+import connectorMobile from "../public/assets/connector-mobile.svg";
 import athlete from "../public/assets/training.png";
 
 const bullets = [
@@ -50,19 +53,51 @@ const Training = () => {
           </div>
         </h2>
       </section>
-      <section className="grid grid-cols-2 gap-[30px] text-right">
-        <section className="self-center">
+      <section className="flex flex-col items-center md:hidden">
+        <section className="flex flex-col items-center">
           {bullets.map((bullet, index) => (
-            <div
-              key={index}
-              className="mb-8 flex flex-col items-end text-right"
-            >
+            <div key={index} className="mb-8 flex flex-col sm:text-lg">
               <h4 className="mb-4 font-black text-red">{bullet.title}</h4>
               <p className="max-w-[300px]">{bullet.description}</p>
             </div>
           ))}
         </section>
         <Image src={athlete} alt="Athlete" />
+      </section>
+      <section className="hidden md:block xl:hidden">
+        <section className="grid grid-cols-2 gap-[30px] text-right">
+          <section className="self-center">
+            {bullets.map((bullet, index) => (
+              <div
+                key={index}
+                className="mb-8 flex flex-col items-end text-right"
+              >
+                <h4 className="mb-4 font-black text-red">{bullet.title}</h4>
+                <p className="max-w-[300px]">{bullet.description}</p>
+              </div>
+            ))}
+          </section>
+          <Image src={athlete} alt="Athlete" />
+        </section>
+      </section>
+      <section className="hidden xl:block">
+        <section>
+          <div>
+            <Image src={connector1} alt="connector" />
+          </div>
+          <div>
+            <Image src={connector1} alt="connector" />
+          </div>
+        </section>
+        <Image src={athlete} alt="Athlete" />
+        <section>
+          <div>
+            <Image src={connector2} alt="connector" />
+          </div>
+          <div>
+            <Image src={connector2} alt="connector" />
+          </div>
+        </section>
       </section>
     </article>
   );
