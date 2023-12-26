@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import RedButton from "./RedButton";
-import hero1 from "../public/assets/hero-1.JPG";
+import hero1 from "../public/assets/hero-1.jpg";
 import hero2 from "../public/assets/hero-2.jpg";
 
 const Hero = () => {
