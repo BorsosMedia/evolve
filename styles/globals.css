@@ -76,6 +76,14 @@
   .slick-slide {
     @apply box-border px-2;
   }
+
+  .popup {
+    @apply bg-popup bg-center bg-cover bg-no-repeat;
+  }
+
+  .bg-contest-section {
+    @apply bg-contestMobile bg-no-repeat bg-top md:bg-left-top bg-cover md:bg-contest;
+  }
 }
 
 .slick-arrow:before {
