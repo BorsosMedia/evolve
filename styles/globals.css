@@ -82,7 +82,7 @@
   }
 
   .bg-contest-section {
-    @apply bg-contestMobile bg-no-repeat bg-top md:bg-left-top bg-cover md:bg-contest;
+    @apply bg-contestMobile bg-no-repeat bg-top md:bg-left-top bg-cover md:bg-contest xl:bg-contain;
   }
 }
 

@@ -2,7 +2,7 @@ import RedButton from "./RedButton";
 
 const ContestSection = () => {
   return (
-    <article className="bg-contest-section" id="contest">
+    <article className="bg-contest-section mb-16 bg-[#131313]" id="contest">
       <section className="container mx-auto flex w-[80%] flex-col justify-around gap-8 py-16 text-center md:text-right xl:text-xl 2xl:text-2xl">
         <h2 className="headline">
           Greatness comes
